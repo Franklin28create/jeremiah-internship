@@ -3,7 +3,7 @@
 export default function Navbar() {
   return (
     <nav className="h-20">
-      <div className="flex justify-between items-center w-full h-full mx-auto py-0 px-6">
+      <div className="flex justify-between items-center w-full h-full max-w-5xl mx-auto py-0 px-6">
         <a href="/" className="max-w-52">
           <img className="w-full h-full" src="/assets/logo.png" alt="logo" />
         </a>

@@ -1,5 +1,6 @@
 import Features from "./components/Features";
 import Landing from "./components/Landing";
+import Reviews from "./components/Reviews";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Landing />
       <Features />
+      <Reviews />
     </div>
   );
 }
