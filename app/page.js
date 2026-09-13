@@ -1,10 +1,12 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar";
+import Features from "./components/Features";
+import Landing from "./components/Landing";
+
 
 export default function Home() {
   return (
     <div>
-       <Navbar />
+      <Landing />
+      <Features />
     </div>
   );
 }
