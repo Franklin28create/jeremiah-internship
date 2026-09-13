@@ -4,10 +4,10 @@ export default function Features() {
     return (
         <section id="features">
       <div className="px-10 py-0">
-        <div className="max-w-5xl w-full mx-0 px-0 py-6">
+        <div className="max-w-5xl w-full mx-auto px-0 py-6">
           <div className="text-xl text-[#032b41] text-center mb-8 font-bold md:text-3xl">Understand books in few minutes</div>
           <div className="grid grid-cols-1 md:grid-cols-3">
-            <div className="flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center">
               <div className="flex justify-center mb-2 text-[#032b41]">
                 <AiFillFileText className="w-14 h-13 md:w-16 md:h-15" />
               </div>
@@ -16,7 +16,7 @@ export default function Features() {
                 Save time by getting the core ideas from the best books.
               </div>
             </div>
-            <div className="flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center">
               <div className="flex justify-center mb-2 text-[#032b41]">
                 <AiFillBulb className="w-14 h-13 md:w-16 md:h-15" />
               </div>
@@ -25,7 +25,7 @@ export default function Features() {
                 Explore book lists and personalized recommendations.
               </div>
             </div>
-            <div className="flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center">
               <div className="flex justify-center mb-2 text-[#032b41]">
                 <AiFillAudio className="w-14 h-13 md:w-16 md:h-15" />
               </div>
@@ -51,20 +51,20 @@ export default function Features() {
             <div className="w-full flex flex-col justify-center gap-6 bg-[#f1f6f4] px-10 py-6">
               <div className="flex gap-4">
                 <div className="text-[#0365f2] text-xl font-bold mt-1">93%</div>
-                <div className="text-small font-medium mt-1 text-[#394547] md:text-base">
+                <div className="text-sm font-medium mt-1 text-[#394547] md:text-base">
                   of Summarist members <b>significantly increase</b> reading
                   frequency.
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="text-[#0365f2] text-xl font-bold mt-1">96%</div>
-                <div className="text-small font-medium mt-1 text-[#394547] md:text-base">
+                <div className="text-sm font-medium mt-1 text-[#394547] md:text-base">
                   of Summarist members <b>establish better</b> habits.
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="text-[#0365f2] text-xl font-bold mt-1">90%</div>
-                <div className="text-small font-medium mt-1 text-[#394547] md:text-base">
+                <div className="text-sm font-medium mt-1 text-[#394547] md:text-base">
                   have made <b>significant positive</b> change to their lives.
                 </div>
               </div>
@@ -72,11 +72,11 @@ export default function Features() {
           </div>
           <div className="[&>*:last-child]:mb-0 flex flex-col md:flex-row gap-8 mb-8 md:gap-20 md:mb-24 mt-15">
             <div
-              className="w-full flex flex-col justify-center gap-6 bg-[#f1f6f4] px-10 py-6 order-1"
+              className="w-full flex flex-col justify-center gap-6 bg-[#f1f6f4] px-10 py-6 order-1 md:order-0"
             >
               <div className="flex gap-4">
                 <div className="text-[#0365f2] text-xl font-bold mt-1">91%</div>
-                <div className="text-small font-medium mt-1 text-[#394547] md:text-base">
+                <div className="text-sm font-medium mt-1 text-[#394547] md:text-base">
                   of Summarist members <b>report feeling more productive</b>
                    after incorporating the service into their daily routine.
                 </div>
@@ -90,7 +90,7 @@ export default function Features() {
               </div>
               <div className="flex gap-4">
                 <div className="text-[#0365f2] text-xl font-bold mt-1">88%</div>
-                <div className="text-small font-medium mt-1 text-[#394547] md:text-base">
+                <div className="text-sm font-medium mt-1 text-[#394547] md:text-base">
                   of Summarist members <b>feel more informed</b> about current
                   events and industry trends since using the platform.
                 </div>

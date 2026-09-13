@@ -1,8 +1,8 @@
 export default function Landing() {
   return (
     <section id="features">
-      <div className="px-10 py-0 ">
-        <div className="w-full mx-auto px-0 py-6">
+      <div className="px-10  mx-auto py-0 ">
+        <div className="w-full px-0 py-6">
           <div className="flex items-center justify-between">
             <div className="flex flex-col items-center text-center max-w-135 w-full md:w-1/2">
               <div className="text-[#032b41] text-3xl text-bold mb-6">
