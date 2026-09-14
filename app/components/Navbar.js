@@ -34,7 +34,7 @@ export default function Navbar() {
         </div>
       </nav>
       {loginOpen && (
-        <div className="w-full z-10">
+        <div className="w-full z-10 fixed inset-0 flex items-center justify-center bg-gray-500/50">
           <div className="relative max-w-98 bg-white rounded-lg shadow-md">
             <div className="px-12 py-8">
               <div className="text-center text-xl font-normal text-[#032b41] mb-6">
