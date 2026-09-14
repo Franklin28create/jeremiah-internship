@@ -67,7 +67,7 @@ export default function Navbar() {
             <button className="h-10 text-center bg-[#f1f6f4] text-[#116be9] w-full ">
               Don't have an account?
             </button>
-            <button className="absolute top-3 right-3 flex cursor-pointer transition duration-200 opacity-15">
+            <button onClick={() => setLoginOpen(false)} className="text-3xl absolute top-3 right-3 flex cursor-pointer transition duration-200 opacity-15">
               <IoCloseSharp />
             </button>
           </div>
