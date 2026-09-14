@@ -40,16 +40,24 @@ export default function Navbar() {
               <div className="text-center text-xl font-normal text-[#032b41] mb-6">
                 Login to Summarist
               </div>
-              <button className="relative flex bg-[#3a579d] text-white justify-center w-full">
+              <button className="relative flex items-center gap-3 bg-[#3a579d] text-white justify-center w-full">
                 <FaUser />
                 <div>Login as Guest</div>
               </button>
-              <div className="text-center mb-2 mt-2">or</div>
-              <button className="relative flex bg-[#3a579d] text-white justify-center w-full">
+              <div className="flex items-center gap-3 mb-2 mt-2">
+                <div className="flex-1 h-px bg-gray-800" />
+                <span>or</span>
+                <div className="flex-1 h-px bg-gray-800" />
+              </div>
+              <button className="flex items-center gap-3 relative flex bg-[#3a579d] text-white justify-center w-full">
                 <FcGoogle />
                 <div>Login with Google</div>
               </button>
-              <div className="text-center mb-2 mt-2">or</div>
+              <div className="flex items-center gap-3 mb-2 mt-2">
+                <div className="flex-1 h-px bg-gray-800" />
+                <span>or</span>
+                <div className="flex-1 h-px bg-gray-800" />
+              </div>
               <form className="flex flex-col gap-4">
                 <input
                   className="h-10 border-2 border-[#bac8ce] text-[#394547] py-3"
@@ -67,7 +75,10 @@ export default function Navbar() {
             <button className="h-10 text-center bg-[#f1f6f4] text-[#116be9] w-full ">
               Don't have an account?
             </button>
-            <button onClick={() => setLoginOpen(false)} className="text-3xl absolute top-3 right-3 flex cursor-pointer transition duration-200 opacity-15">
+            <button
+              onClick={() => setLoginOpen(false)}
+              className="text-3xl absolute top-3 right-3 flex cursor-pointer transition duration-200 opacity-15"
+            >
               <IoCloseSharp />
             </button>
           </div>
