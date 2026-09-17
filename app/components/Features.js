@@ -35,7 +35,7 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <div className="[&>*:last-child]:mb-0 flex flex-col md:flex-row gap-8 mb-8 md:gap-20 md:mb-24 mt-15">
+          <div className="flex flex-col md:flex-row gap-8 mb-8 md:gap-20 md:mb-24 mt-15">
             <div className="w-full flex flex-col justify-center">
               <div className="text-2xl md:text-3xl font-medium text-[#6b75b] mb-4">Enhance your knowledge</div>
               <div className="text-2xl md:text-3xl font-medium text-[#6b75b] mb-4">Achieve greater success</div>
