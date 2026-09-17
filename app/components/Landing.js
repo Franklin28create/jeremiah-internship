@@ -1,4 +1,7 @@
+import { useLogin } from "../context/AuthContext";
+
 export default function Landing() {
+  const { setLoginOpen } = useLogin();
   return (
     <section id="landing">
       <div className="px-10 py-0 ">
@@ -16,12 +19,19 @@ export default function Landing() {
                 <br />
                 and even people who don’t like to read.
               </div>
-              <button className="cursor-pointer bg-[#2bd97c] text-[#032b41] w-full h-10 rounded text-lg transition-colors duration-300 hover:bg-[#209e5b] flex items-center justify-center min-w-44 max-w-72">
+              <button
+                onClick={() => setLoginOpen(true)}
+                className="cursor-pointer bg-[#2bd97c] text-[#032b41] w-full h-10 rounded text-lg transition-colors duration-300 hover:bg-[#209e5b] flex items-center justify-center min-w-44 max-w-72"
+              >
                 Login
               </button>
             </div>
             <figure className="hidden md:flex w-1/2 justify-end">
-              <img className="hidden w-full h-full max-w-96 md:block" src="/assets/landing.png" alt="landing" />
+              <img
+                className="hidden w-full h-full max-w-96 md:block"
+                src="/assets/landing.png"
+                alt="landing"
+              />
             </figure>
           </div>
         </div>
