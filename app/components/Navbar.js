@@ -3,68 +3,9 @@ import { useState, useEffect } from "react";
 import { FaUser } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { IoCloseSharp } from "react-icons/io5";
-import {
-  signInAnonymously,
-  GoogleAuthProvider,
-  signInWithPopup,
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  sendPasswordResetEmail,
-  onAuthStateChanged,
-  signOut,
-} from "firebase/auth";
+import { signOut } from "firebase/auth";
 
 export default function Navbar({ user, setLoginOpen, auth }) {
-  // const [loginOpen, setLoginOpen] = useState(false);
-  // const [email, setEmail] = useState("");
-  // const [password, setPassword] = useState("");
-  // const [creatingAccount, setCreatingAccount] = useState(false);
-  // const [user, setUser] = useState(null);
-
-  // useEffect(() => {
-  //   const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-  //     setUser(currentUser);
-  //   });
-
-  //   return () => unsubscribe();
-  // }, []);
-
-  // const handleGuestLogin = async () => {
-  //   try {
-  //     await signInAnonymously(auth);
-  //     setLoginOpen(false);
-  //     console.log("Guest logged in!");
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // const handleGoogleLogin = async () => {
-  //   const provider = new GoogleAuthProvider();
-
-  //   try {
-  //     await signInWithPopup(auth, provider);
-  //     setLoginOpen(false);
-  //     console.log("Google login successful!");
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // const handleForgotPassword = async () => {
-  //   if (!email) {
-  //     alert("Please enter your email address first.");
-  //     return;
-  //   }
-
-  //   try {
-  //     await sendPasswordResetEmail(auth, email);
-  //     alert("Password reset email sent!");
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
   return (
     <>
       <nav className="h-20">
